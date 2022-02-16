@@ -4,6 +4,7 @@ from client.mahjong_tile import Tile
 from copy import deepcopy
 
 
+
 class WaitCalc:
 
     @staticmethod

@@ -1,0 +1,39 @@
+2021-08-04 23:38:05:     User(ID044813EF-4dCn98J3) was authenticated successfully
+2021-08-04 23:38:05:     🔍Search for a game...
+2021-08-04 23:38:05:     🔍Join request sent...
+2021-08-04 23:38:05:     Game type = "Red bonus tile" : True, "Open tanyao" : True, "Game  length" : tonpusen
+2021-08-04 23:38:05:     🔍0 seconds passed...
+2021-08-04 23:38:05:     A new game started!
+2021-08-04 23:38:05:     The replay link can be found here: http://tenhou.net/0/?log=None&tw=3
+2021-08-04 23:38:05:     Players are: [MyBot - 新人 - None, COM - 新人 - None, COM - 新人 - None, COM - 新人 - None]
+2021-08-04 23:38:06:     --------------------------------------------------
+2021-08-04 23:38:06:     Round number:0, Honba sticks:0, Bonus tile indicator:🀕
+2021-08-04 23:38:06:     Players: [MyBot - 新人 - 25000, COM - 新人 - 25000, COM - 新人 - 25000, COM - 新人 - 25000]
+2021-08-04 23:38:06:     Dealer: COM - 新人 - 25000
+2021-08-04 23:38:06:     Round  wind: 🀀
+2021-08-04 23:38:06:     Player wind: 🀃
+2021-08-04 23:38:06:  
+2021-08-04 23:38:06:     [Player 1] draws a tile...
+2021-08-04 23:38:06:     [Player 1] discards:  + 🀕
+2021-08-04 23:38:06:     [Player 2] draws a tile...
+2021-08-04 23:38:06:     [Player 2] discards:  + 🀃
+2021-08-04 23:38:06:     [Player 3] draws a tile...
+2021-08-04 23:38:06:     [Player 3] discards:  + 🀀
+2021-08-04 23:38:06: 
+2021-08-04 23:38:06:     [Bot] draws a tile: 🀇🀈🀌🀎🀎🀛🀜🀒🀗🀁🀁🀂🀅 + 🀐
+2021-08-04 23:39:05: Unexpected exception
+Traceback (most recent call last):
+  File "c:\Users\chenq\Desktop\MahjongAI\Mahjong AI\MahjongAI\main.py", line 17, in connect_and_play
+    return client.start_game()
+  File "c:\Users\chenq\Desktop\MahjongAI\Mahjong AI\MahjongAI\client\tenhou_client.py", line 129, in start_game
+    if self._handle_draw_tile(msg):
+  File "c:\Users\chenq\Desktop\MahjongAI\Mahjong AI\MahjongAI\client\tenhou_client.py", line 534, in _handle_draw_tile
+    discard_tile_136 = self.game_table.bot.to_discard_tile()
+  File "c:\Users\chenq\Desktop\MahjongAI\Mahjong AI\MahjongAI\agents\arthurAI.py", line 57, in to_discard_tile
+    waiting = self.waiting_card_calc(tiles34cpy, meld34, shanten)
+  File "c:\Users\chenq\Desktop\MahjongAI\Mahjong AI\MahjongAI\agents\arthurAI.py", line 35, in waiting_card_calc
+    total_waiting += (4 - self.game_table.revealed[i])
+AttributeError: 'GameTable' object has no attribute 'revealed'
+2021-08-04 23:39:05: End the game...
+2021-08-04 23:39:05:     Game was ended unexpected
+2021-08-04 23:39:05: 

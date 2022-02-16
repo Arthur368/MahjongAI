@@ -12,6 +12,8 @@ __email__ = "jian4yang2.tang1@gmail.com"
 
 class RandomAI(AIInterface):
 
+
+    
     def to_discard_tile(self):
         """
         This method has to be implemented. It has access to all information listed in the instruction.

@@ -1,0 +1,10 @@
+2021-07-12 18:27:42: Unexpected exception
+Traceback (most recent call last):
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\main.py", line 15, in connect_and_play
+    success_auth = client.authenticate()
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 68, in authenticate
+    auth_code, rating, new_level = TenhouParser.parse_auth_msg(auth_msg)
+ValueError: not enough values to unpack (expected 3, got 2)
+2021-07-12 18:27:42: End the game...
+2021-07-12 18:27:42:     Game was ended unexpected
+2021-07-12 18:27:42: 

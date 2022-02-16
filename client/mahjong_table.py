@@ -25,7 +25,7 @@ class GameTable:
     open_tanyao = False
     aka_dora = False
 
-    def __init__(self, ai_obj, opponent_class, thcleint):
+    def __init__(self, ai_obj, opponent_class, thcleint): # misspelling!!!
         self._init_players(ai_obj, opponent_class, thcleint)
         self.bonus_indicator = []
         self.revealed_tiles = [0]*34

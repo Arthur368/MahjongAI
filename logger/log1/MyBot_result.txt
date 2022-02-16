@@ -1,0 +1,176 @@
+
+[Time] 2021-07-12 18:37:03.021608
+[Game history link] http://tenhou.net/0/?log=2021071217gm-0001-0000-d3ad8161&tw=3
+
+[Time] 2021-07-12 19:01:48.898078
+[Game history link] http://tenhou.net/0/?log=2021071218gm-0001-0000-9d661a13&tw=2
+
+[Time] 2021-07-12 19:49:25.478152
+[Game history link] http://tenhou.net/0/?log=2021071218gm-0001-0000-8d83f9c8&tw=1
+
+[Time] 2021-07-12 20:31:40.844391
+[Game history link] http://tenhou.net/0/?log=2021071219gm-0001-0000-85938ab3&tw=2
+
+[Time] 2021-07-12 20:49:52.783552
+[Game history link] http://tenhou.net/0/?log=2021071219gm-0001-0000-3fc4bdd9&tw=2
+
+[Time] 2021-07-14 23:53:42.956372
+[Game history link] http://tenhou.net/0/?log=2021071422gm-0001-0000-e7f86b6a&tw=2
+    Reconnected here: Round 0, Turn 1
+    Reconnected here: Round 1, Turn 11
+    [R1T19] NO ONE WINS, NO MORE TILES...    Reconnected here: Round 2, Turn 1
+
+[Time] 2021-07-15 00:10:50.240590
+[Game history link] http://tenhou.net/0/?log=2021071423gm-0001-0000-c075dee9&tw=2
+
+[Time] 2021-07-15 00:33:51.477461
+[Game history link] http://tenhou.net/0/?log=2021071423gm-0001-0000-6df7a500&tw=3
+    [Round-0 Turn-9 Dealer-1]
+        [Win]:3(Riichi)  [By]:0  [Score]:8000  [Tile]:5 🀌 
+        [Winning Hand] 🀌🀌🀍🀍🀞🀟🀟🀠🀠🀡🀒🀓🀔++🀌  [5, 5, 6, 6, 14, 15, 15, 16, 16, 17, 20, 21, 22]++5
+    [Round-1 Turn-10 Dealer-2]
+        [Win]:2  [By]:3  [Score]:1500  [Tile]:16 🀠 
+        [Winning Hand] 🀊🀋🀌🀌🀍🀎🀞🀟🀠🀠+🀒🀓🀔+🀠  [3, 4, 5, 5, 6, 7, 14, 15, 16, 16]+[20, 21, 22]+16
+    [R1T17] NO ONE WINS, NO MORE TILES...        FT-P1:🀊🀊🀋🀋:[3, 3, 4, 4]
+    [R2T19] NO ONE WINS, NO MORE TILES...        FT-P1:🀋🀋🀍🀍🀏🀏🀚🀜🀜🀟🀟🀖🀖:[4, 4, 6, 6, 8, 8, 10, 12, 12, 15, 15, 24, 24]
+        FT-P2:🀈🀉🀊🀙🀚🀛🀖:[1, 2, 3, 9, 10, 11, 24]
+    [Round-3 Turn-15 Dealer-0]
+        [Win]:2  [By]:1  [Score]:3900  [Tile]:10 🀚 
+        [Winning Hand] 🀉🀊🀋🀛🀜🀕🀕+🀌🀍🀎🀝🀞🀟+🀚  [2, 3, 4, 11, 12, 23, 23]+[5, 6, 7][13, 14, 15]+10
+MyBot - 新人 - 14500.0,8736 - 5級 - 23700.0,who1484 - 3級 - 32800.0,はやと - 4級 - 29000.0
+
+
+[Time] 2021-07-15 00:58:50.540432
+[Game history link] http://tenhou.net/0/?log=2021071423gm-0001-0000-fbba6f9a&tw=0
+    [R0T18] NO ONE WINS, NO MORE TILES...        FT-P1:🀍🀏🀙🀚🀛🀖🀗🀘🀅🀅:[6, 8, 9, 10, 11, 24, 25, 26, 32, 32]
+        FT-P2:🀋🀌🀛🀛:[4, 5, 11, 11]
+        FT-P3:🀈🀉🀊🀋🀋🀙🀙🀙🀚🀛🀜🀔🀕:[1, 2, 3, 4, 4, 9, 9, 9, 10, 11, 12, 22, 23]
+    [Round-1 Turn-15 Dealer-1]
+        [Win]:3  [By]:0  [Score]:2600  [Tile]:23 🀕 
+        [Winning Hand] 🀝🀝🀐🀑🀒🀓🀔🀅🀅🀅+🀡🀡🀡+🀕  [13, 13, 18, 19, 20, 21, 22, 32, 32, 32]+[17, 17, 17]+23
+    [Round-2 Turn-4 Dealer-2]
+        [Win]:3  [By]:0  [Score]:7700  [Tile]:31 🀆 
+        [Winning Hand] 🀈🀉🀊🀡🀡🀑🀒🀓🀆🀆+🀐🀐🀐+🀆  [1, 2, 3, 17, 17, 19, 20, 21, 31, 31]+[18, 18, 18]+31
+    [R3T19] NO ONE WINS, NO MORE TILES...        FT-P1:🀌🀍🀎🀞🀟🀠🀕🀕🀕🀗:[5, 6, 7, 14, 15, 16, 23, 23, 23, 25]
+MyBot - 新人 - 10400.0,鬼千歳 - 二段 - 29000.0,UDON - 9級 - 25000.0,aarfdsf - 二段 - 35600.0
+
+
+[Time] 2021-07-15 13:23:18.847354
+[Game history link] http://tenhou.net/0/?log=2021071512gm-0001-0000-d2009987&tw=3
+    [Round-0 Turn-16 Dealer-1]
+        [Win]:2(Riichi)  [By]:3  [Score]:2600  [Tile]:24 🀖 
+        [Winning Hand] 🀇🀇🀚🀛🀜🀓🀔🀕🀗🀘🀁🀁🀁++🀖  [0, 0, 10, 11, 12, 21, 22, 23, 25, 26, 28, 28, 28]++24
+    [Round-1 Turn-11 Dealer-2]
+        [Win]:3  [By]:0  [Score]:1000  [Tile]:21 🀓 
+        [Winning Hand] 🀈🀉🀊🀎🀎🀟🀟🀟🀑🀒+🀆🀆🀆+🀓  [1, 2, 3, 7, 7, 15, 15, 15, 19, 20]+[31, 31, 31]+21
+    [Round-2 Turn-13 Dealer-3]
+        [Win]:2(Riichi)  [By]:0  [Score]:5200  [Tile]:33 🀄 
+        [Winning Hand] 🀉🀊🀋🀎🀎🀑🀒🀓🀕🀖🀗🀄🀄++🀄  [2, 3, 4, 7, 7, 19, 20, 21, 23, 24, 25, 33, 33]++33
+    [Round-3 Turn-11 Dealer-0]
+        [Win]:2  [By]:0  [Score]:1000  [Tile]:7 🀎 
+        [Winning Hand] 🀊🀊🀌🀍🀜🀝🀞🀞🀟🀠+🀆🀆🀆+🀎  [3, 3, 5, 6, 12, 13, 14, 14, 15, 16]+[31, 31, 31]+7
+MyBot - 新人 - 17800.0,盆 - 3級 - 25000.0,ゲリピー - 4級 - 33800.0,DEKU - 二段 - 23400.0
+
+
+[Time] 2021-07-15 15:03:31.672729
+[Game history link] http://tenhou.net/0/?log=2021071514gm-0001-0000-1610ff3b&tw=1
+
+[Time] 2021-07-15 15:19:31.087932
+[Game history link] http://tenhou.net/0/?log=2021071514gm-0001-0000-7c7a9d0b&tw=3
+    [Round-0 Turn-11 Dealer-1]
+        [Win]:3  [By]:2  [Score]:7700  [Tile]:15 🀟 
+        [Winning Hand] 🀉🀉🀉🀚🀛🀜🀞🀠🀗🀗+🀑🀑🀑+🀟  [2, 2, 2, 10, 11, 12, 14, 16, 25, 25]+[19, 19, 19]+15
+    [Round-1 Turn-11 Dealer-2]
+        [Win]:3  [By]:3  [Score]:4000  [Tile]:6 🀍 
+        [Winning Hand] 🀌🀎🀝🀝🀞🀞🀟🀟🀑🀑🀓🀔🀕++🀍  [5, 7, 13, 13, 14, 14, 15, 15, 19, 19, 21, 22, 23]++6
+    [Round-2 Turn-15 Dealer-3]
+        [Win]:3  [By]:0  [Score]:11600  [Tile]:15 🀟 
+        [Winning Hand] 🀉🀊🀋🀋🀌🀍🀚🀛🀜🀝🀞🀖🀖++🀟  [2, 3, 4, 4, 5, 6, 10, 11, 12, 13, 14, 24, 24]++15
+    [Round-2 Turn-13 Dealer-3]
+        [Win]:1(Riichi)  [By]:2  [Score]:7700  [Tile]:12 🀜 
+        [Winning Hand] 🀉🀊🀋🀚🀛🀜🀝🀞🀟🀠🀡🀐🀐++🀜  [2, 3, 4, 10, 11, 12, 13, 14, 15, 16, 17, 18, 18]++12
+    [Round-3 Turn-10 Dealer-0]
+        [Win]:3(Riichi)  [By]:1  [Score]:8000  [Tile]:21 🀓 
+        [Winning Hand] 🀚🀛🀜🀟🀠🀡🀔🀕🀖🀗🀘🀃🀃++🀓  [10, 11, 12, 15, 16, 17, 22, 23, 24, 25, 26, 30, 30]++21
+MyBot - 新人 - 12400.0,Joy - 3級 - 24000.0,kazu0409 - 4級 - 7300.0,私は誰ここはどこ - 5級 - 56300.0
+
+
+[Time] 2021-07-26 23:23:05.811654
+[Game history link] http://tenhou.net/0/?log=2021072622gm-0001-0000-5ecd65c5&tw=3
+    Reconnected here: Round 1, Turn 4
+
+[Time] 2021-07-26 23:35:06.688890
+[Game history link] http://tenhou.net/0/?log=2021072622gm-0001-0000-3faa0ce1&tw=0
+    [Round-0 Turn-16 Dealer-0]
+        [Win]:1  [By]:0  [Score]:8000  [Tile]:16 🀠 
+        [Winning Hand] 🀚🀛🀜🀞🀟🀟🀟🀀🀀🀀+🀆🀆🀆+🀠  [10, 11, 12, 14, 15, 15, 15, 27, 27, 27]+[31, 31, 31]+16
+    [Round-1 Turn-15 Dealer-1]
+        [Win]:1(Riichi)  [By]:0  [Score]:2000  [Tile]:13 🀝 
+        [Winning Hand] 🀇🀈🀉🀛🀜🀞🀟🀠🀔🀔🀔🀖🀖++🀝  [0, 1, 2, 11, 12, 14, 15, 16, 22, 22, 22, 24, 24]++13
+    Reconnected here: Round 1, Turn 0
+
+[Time] 2021-07-26 23:55:57.529028
+[Game history link] http://tenhou.net/0/?log=None&tw=1
+
+[Time] 2021-07-27 00:08:33.026727
+[Game history link] http://tenhou.net/0/?log=None&tw=3
+
+[Time] 2021-07-27 00:08:59.792249
+[Game history link] http://tenhou.net/0/?log=None&tw=3
+
+[Time] 2021-07-27 00:09:23.552862
+[Game history link] http://tenhou.net/0/?log=None&tw=1
+
+[Time] 2021-07-27 00:10:46.891753
+[Game history link] http://tenhou.net/0/?log=None&tw=3
+
+[Time] 2021-07-28 13:50:29.114616
+[Game history link] http://tenhou.net/0/?log=None&tw=3
+    [R0T17] NO ONE WINS, NO MORE TILES...    [R1T17] NO ONE WINS, NO MORE TILES...    [R2T18] NO ONE WINS, NO MORE TILES...    [R3T18] NO ONE WINS, NO MORE TILES...    [R4T17] NO ONE WINS, NO MORE TILES...
+[Time] 2021-07-28 13:57:08.367142
+[Game history link] http://tenhou.net/0/?log=None&tw=1
+    [Round-0 Turn-16 Dealer-3]
+        [Win]:0  [By]:0  [Score]:1100  [Tile]:3 🀊 
+        [Winning Hand] 🀈🀉🀊🀋🀋🀌🀌🀍🀏🀏🀏🀜🀜++🀊  [1, 2, 3, 4, 4, 5, 5, 6, 8, 8, 8, 12, 12]++3
+
+[Time] 2021-07-28 13:58:28.790988
+[Game history link] http://tenhou.net/0/?log=None&tw=3
+    [R0T17] NO ONE WINS, NO MORE TILES...
+[Time] 2021-07-28 14:02:10.881201
+[Game history link] http://tenhou.net/0/?log=None&tw=2
+
+[Time] 2021-07-28 14:03:36.288511
+[Game history link] http://tenhou.net/0/?log=None&tw=1
+    [R0T18] NO ONE WINS, NO MORE TILES...
+[Time] 2021-07-28 14:11:02.575077
+[Game history link] http://tenhou.net/0/?log=None&tw=1
+
+[Time] 2021-07-28 14:14:33.920147
+[Game history link] http://tenhou.net/0/?log=None&tw=0
+
+[Time] 2021-07-28 14:16:07.811467
+[Game history link] http://tenhou.net/0/?log=None&tw=1
+    [R0T18] NO ONE WINS, NO MORE TILES...
+[Time] 2021-07-28 14:27:02.033689
+[Game history link] http://tenhou.net/0/?log=None&tw=3
+    [R0T17] NO ONE WINS, NO MORE TILES...
+[Time] 2021-07-28 14:31:24.397602
+[Game history link] http://tenhou.net/0/?log=None&tw=2
+    [R0T17] NO ONE WINS, NO MORE TILES...
+[Time] 2021-08-04 23:33:48.873050
+[Game history link] http://tenhou.net/0/?log=None&tw=1
+
+[Time] 2021-08-04 23:34:45.838698
+[Game history link] http://tenhou.net/0/?log=None&tw=1
+
+[Time] 2021-08-04 23:36:33.846442
+[Game history link] http://tenhou.net/0/?log=None&tw=2
+
+[Time] 2021-08-04 23:38:05.743241
+[Game history link] http://tenhou.net/0/?log=None&tw=3
+
+[Time] 2021-08-05 00:11:00.062875
+[Game history link] http://tenhou.net/0/?log=None&tw=2
+
+[Time] 2021-08-05 00:14:17.481253
+[Game history link] http://tenhou.net/0/?log=None&tw=0

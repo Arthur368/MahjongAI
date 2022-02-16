@@ -16,7 +16,7 @@ class Player:
         self.seat = seat
         self.dealer_seat = dealer_seat
         self.init_state()
-        self.discard136 = []
+        self.discard136 = [] 
         self.meld136 = []
         self.reach_status = False
         self.tmp_rank = 0
@@ -112,6 +112,7 @@ class Player:
     def total_melds34(self):
         return [[t // 4 for t in m.tiles] for m in self.meld136]
 
+    #  handle kawa infomation
     @property
     def open_state_f_lst(self):
         res = [min(self.discard34.count(tile) / 3, 1) for tile in range(34)]

@@ -23,6 +23,7 @@ class Logger:
 
     def _set_up_logger(self):
         root_dir = os.path.dirname(os.path.abspath("__file__"))
+        # make sure fix this before post
         logs_directory = root_dir + "/logger/{}/".format(self.log_id)
         if not os.path.isdir(logs_directory):
             os.mkdir(logs_directory)
@@ -34,7 +35,7 @@ class Logger:
         ch = logging.StreamHandler()
         ch.setLevel(logging.DEBUG)
         file_name = '{}_{}.log'.format(self.ai_id, datetime.datetime.now().strftime('%Y-%m-%d_%H_%M_%S'))
-        fh = logging.FileHandler(raw_dir + file_name)
+        fh = logging.FileHandler(raw_dir + file_name, encoding= "utf-8")
         fh.setLevel(logging.DEBUG)
         formatter = logging.Formatter('%(asctime)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
         ch.setFormatter(formatter)
@@ -54,7 +55,7 @@ class Logger:
         self.logger_buffer = []
 
     def add_round_end_result(self, msg):
-        open(self.scores_path, 'a').write(msg)
+        open(self.scores_path, 'a', encoding="utf-8").write(msg)
 
     def add_game_end_result(self, rk):
         if os.path.isfile(self.rank_path):
@@ -62,4 +63,4 @@ class Logger:
         else:
             ranks = [0] * 4
         ranks[rk] += 1
-        open(self.rank_path, 'w').write("".join(["Rank {}: {} : {:.2f}%\n".format(i, ranks[i - 1], 100*ranks[i-1]/sum(ranks)) for i in range(1, 5)]))
+        open(self.rank_path, 'w', encoding="utf-8").write("".join(["Rank {}: {} : {:.2f}%\n".format(i, ranks[i - 1], 100*ranks[i-1]/sum(ranks)) for i in range(1, 5)]))

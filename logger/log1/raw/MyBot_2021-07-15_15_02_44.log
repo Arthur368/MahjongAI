@@ -1,0 +1,10 @@
+2021-07-15 15:02:45: Unexpected exception
+Traceback (most recent call last):
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\main.py", line 15, in connect_and_play
+    success_auth = client.authenticate()
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 93, in authenticate
+    self._log('    User({}) was authenticated successfully'.format(self.user_id))
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 741, in _log
+    self.logger_obj.add_line(msg, encoding = "utf-8")
+TypeError: add_line() got an unexpected keyword argument 'encoding'
+2021-07-15 15:02:45: End the game...

@@ -1,0 +1,24 @@
+2021-07-26 23:32:02:     Reconnected successfully!
+2021-07-26 23:32:02:     Game type = "Red bonus tile" : True, "Open tanyao" : True, "Game  length" : tonpusen
+2021-07-26 23:32:03:     Reconnected. Resuming game state...
+2021-07-26 23:32:04:     --------------------------------------------------
+2021-07-26 23:32:04:     Round number:3, Honba sticks:0, Bonus tile indicator:🀎
+2021-07-26 23:32:04:     Players: [MyBot - 新人 - 16500, nanow - 初段 - 24500, いも詰め合わせ - 初段 - 29000, kazki - 二段 - 30000]
+2021-07-26 23:32:04:     Dealer: MyBot - 新人 - 16500
+2021-07-26 23:32:04:     Round  wind: 🀀
+2021-07-26 23:32:04:     Player wind: 🀀
+2021-07-26 23:32:04:  
+2021-07-26 23:32:04: 
+2021-07-26 23:32:04:     [Bot] draws a tile: 🀋🀏🀙🀚🀜🀟🀠🀠🀖🀖🀆🀆🀆 + 🀚
+2021-07-26 23:32:05: Unexpected exception
+Traceback (most recent call last):
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\main.py", line 17, in connect_and_play
+    return client.start_game()
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 129, in start_game
+    if self._handle_draw_tile(msg):
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 535, in _handle_draw_tile
+    self.game_table.bot.tiles136.remove(discard_tile_136)
+ValueError: list.remove(x): x not in list
+2021-07-26 23:32:05: End the game...
+2021-07-26 23:32:05:     Game was ended unexpected
+2021-07-26 23:32:05: 

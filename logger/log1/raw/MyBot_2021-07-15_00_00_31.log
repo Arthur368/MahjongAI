@@ -1,0 +1,82 @@
+2021-07-15 00:00:31:     Reconnected successfully!
+2021-07-15 00:00:31:     Game type = "Red bonus tile" : True, "Open tanyao" : True, "Game  length" : tonpusen
+2021-07-15 00:00:32:     Reconnected. Resuming game state...
+2021-07-15 00:00:32:     --------------------------------------------------
+2021-07-15 00:00:32:  
+2021-07-15 00:00:35:     [Player 2] draws a tile...
+2021-07-15 00:00:39:     [Player 3] draws a tile...
+2021-07-15 00:00:43: 
+2021-07-15 00:00:44: 
+2021-07-15 00:00:44:     Remaining tiles: 25
+2021-07-15 00:00:44:     --------------------------------------------------
+2021-07-15 00:00:44: 
+2021-07-15 00:00:46:     [Player 1] draws a tile...
+2021-07-15 00:00:49:     [Player 2] draws a tile...
+2021-07-15 00:00:51:     [Player 3] draws a tile...
+2021-07-15 00:00:55: 
+2021-07-15 00:00:55: 
+2021-07-15 00:00:55:     Remaining tiles: 21
+2021-07-15 00:00:55:     --------------------------------------------------
+2021-07-15 00:00:55: 
+2021-07-15 00:01:01:     [Player 2] draws a tile...
+2021-07-15 00:01:03: 
+2021-07-15 00:01:05:     [Player 1] draws a tile...
+2021-07-15 00:01:08:     [Player 2] draws a tile...
+2021-07-15 00:01:10:     [Player 3] draws a tile...
+2021-07-15 00:01:13: 
+2021-07-15 00:01:14: 
+2021-07-15 00:01:14:     Remaining tiles: 16
+2021-07-15 00:01:14:     --------------------------------------------------
+2021-07-15 00:01:14: 
+2021-07-15 00:01:15:     [Player 1] draws a tile...
+2021-07-15 00:01:16:     [Player 2] draws a tile...
+2021-07-15 00:01:17:     [Player 3] draws a tile...
+2021-07-15 00:01:20: 
+2021-07-15 00:01:20: 
+2021-07-15 00:01:20:     Remaining tiles: 12
+2021-07-15 00:01:20:     --------------------------------------------------
+2021-07-15 00:01:20: 
+2021-07-15 00:01:21:     [Player 1] draws a tile...
+2021-07-15 00:01:22:     [Player 2] draws a tile...
+2021-07-15 00:01:24:     [Player 3] draws a tile...
+2021-07-15 00:01:26: 
+2021-07-15 00:01:27: 
+2021-07-15 00:01:27:     Remaining tiles: 8
+2021-07-15 00:01:27:     --------------------------------------------------
+2021-07-15 00:01:27: 
+2021-07-15 00:01:27:     [Player 1] draws a tile...
+2021-07-15 00:01:29:     [Player 2] draws a tile...
+2021-07-15 00:01:30:     [Player 3] draws a tile...
+2021-07-15 00:01:39: 
+2021-07-15 00:01:39: 
+2021-07-15 00:01:39:     Remaining tiles: 4
+2021-07-15 00:01:39:     --------------------------------------------------
+2021-07-15 00:01:39: 
+2021-07-15 00:01:40:     [Player 1] draws a tile...
+2021-07-15 00:01:41:     [Player 2] draws a tile...
+2021-07-15 00:01:44:     [Player 3] draws a tile...
+2021-07-15 00:01:46: 
+2021-07-15 00:01:46: 
+2021-07-15 00:01:46:     Remaining tiles: 0
+2021-07-15 00:01:46:     --------------------------------------------------
+2021-07-15 00:01:46: 
+2021-07-15 00:01:47:     NO ONE WINS, NO MORE TILES...
+
+2021-07-15 00:01:47: Unexpected exception
+Traceback (most recent call last):
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\main.py", line 17, in connect_and_play
+    return client.start_game()
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 147, in start_game
+    '<RYUUKYOKU' in msg and self._handle_liuju(msg)
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 460, in _handle_liuju
+    self._round_end_info_to_file("        FT-P{}:{}:{}\n".format(k, Tile.t34_to_g(tiles34), tiles34))
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 748, in _round_end_info_to_file
+    self.logger_obj.add_round_end_result(msg)
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\logger\logger_handler.py", line 57, in add_round_end_result
+    open(self.scores_path, 'a').write(msg)
+  File "C:\Users\chenq\AppData\Local\Programs\Python\Python38-32\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 14-23: character maps to <undefined>
+2021-07-15 00:01:47: End the game...
+2021-07-15 00:01:47:     Game was ended unexpected
+2021-07-15 00:01:47: 

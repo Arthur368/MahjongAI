@@ -1,0 +1,41 @@
+2021-07-26 23:23:05:     User(ID044813EF-4dCn98J3) was authenticated successfully
+2021-07-26 23:23:05:     🔍Search for a game...
+2021-07-26 23:23:05:     🔍Join request sent...
+2021-07-26 23:23:05:     Game type = "Red bonus tile" : True, "Open tanyao" : True, "Game  length" : tonpusen
+2021-07-26 23:23:05:     🔍0 seconds passed...
+2021-07-26 23:23:05:     A new game started!
+2021-07-26 23:23:05:     The replay link can be found here: http://tenhou.net/0/?log=2021072622gm-0001-0000-5ecd65c5&tw=3
+2021-07-26 23:23:05:     Players are: [MyBot - 新人 - None, nanow - 初段 - None, いも詰め合わせ - 初段 - None, kazki - 二段 - None]
+2021-07-26 23:23:10:     --------------------------------------------------
+2021-07-26 23:23:10:     Round number:0, Honba sticks:0, Bonus tile indicator:🀅
+2021-07-26 23:23:10:     Players: [MyBot - 新人 - 25000, nanow - 初段 - 25000, いも詰め合わせ - 初段 - 25000, kazki - 二段 - 25000]
+2021-07-26 23:23:10:     Dealer: nanow - 初段 - 25000
+2021-07-26 23:23:10:     Round  wind: 🀀
+2021-07-26 23:23:10:     Player wind: 🀃
+2021-07-26 23:23:10:  
+2021-07-26 23:23:10:     [Player 1] draws a tile...
+2021-07-26 23:23:15:     [Player 1] discards:  + 🀁
+2021-07-26 23:23:15:     [Player 2] draws a tile...
+2021-07-26 23:23:15:     [Player 2] discards:  + 🀁
+2021-07-26 23:23:15:     [Player 3] draws a tile...
+2021-07-26 23:23:17:     [Player 3] discards:  + 🀃
+2021-07-26 23:23:17: 
+2021-07-26 23:23:17:     [Bot] draws a tile: 🀇🀉🀚🀜🀜🀞🀑🀔🀕🀕🀖🀁🀃 + 🀄
+2021-07-26 23:23:18: Unexpected exception
+Traceback (most recent call last):
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\main.py", line 17, in connect_and_play
+    return client.start_game()
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 129, in start_game
+    if self._handle_draw_tile(msg):
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 534, in _handle_draw_tile
+    discard_tile_136 = self.game_table.bot.to_discard_tile()
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\agents\arthurAI.py", line 124, in to_discard_tile
+    tiles34 = Tile.to_34(self.tiles136)
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\mahjong_tile.py", line 128, in to_34
+    return [Tile.tile_dict[t] for t in tiles]
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\mahjong_tile.py", line 128, in <listcomp>
+    return [Tile.tile_dict[t] for t in tiles]
+KeyError: 1
+2021-07-26 23:23:18: End the game...
+2021-07-26 23:23:18:     Game was ended unexpected
+2021-07-26 23:23:18: 

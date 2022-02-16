@@ -17,16 +17,16 @@ class Tile:
     ]
     bonus_dict = {8: 0, 17: 9, 26: 18, 30: 27, 33: 31}
 
-    EAST, SOUTH, WEST, NORTH = 27, 28, 29, 30
-    BLANK, FORTUNE, CENTER = 31, 32, 33
+    EAST, SOUTH, WEST, NORTH = 27, 28, 29, 30 # wind cards
+    BLANK, FORTUNE, CENTER = 31, 32, 33 # sangen cards
     WINDS = [27, 28, 29, 30]
     THREES = [31, 32, 33]
     HONORS = [27, 28, 29, 30, 31, 32, 33]
 
-    ONES, NINES = [0, 9, 18], [8, 17, 26]
+    ONES, NINES = [0, 9, 18], [8, 17, 26] # 1,9 cards(number)
     TERMINALS = [0, 8, 9, 17, 18, 26]
     ONENINE = [0, 8, 9, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33]
-    GREENS = [19, 20, 21, 23, 25, 32]
+    GREENS = [19, 20, 21, 23, 25, 32] # for 
     GOOD_PAIR = ONENINE + [1, 7, 10, 16, 19, 25]
 
     RED_MAN, RED_PIN, RED_SOU = 16, 52, 88
@@ -43,6 +43,7 @@ class Tile:
 
     @staticmethod
     def cal_bonus_tiles(bonus_indicators_34):
+        # make a dictionary for special indicators (e.g. 9s -> 1s)
         p1_dict = {8: 0, 17: 9, 26: 18, 30: 27, 33: 31}
         if isinstance(bonus_indicators_34, int):
             return [p1_dict.get(bonus_indicators_34, bonus_indicators_34 + 1)]
@@ -53,6 +54,7 @@ class Tile:
             return res
 
     @staticmethod
+    # wait for more example to understand
     def has_chow(tiles, chow):
         return all(t in tiles and t//9 == chow[0]//9 and t < 27 for t in chow)
 

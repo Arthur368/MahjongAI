@@ -1,0 +1,20 @@
+2021-07-15 15:03:22:     User(ID044813EF-4dCn98J3) was authenticated successfully
+2021-07-15 15:03:31:     Game type = "Red bonus tile" : True, "Open tanyao" : True, "Game  length" : tonpusen
+2021-07-15 15:03:31:     A new game started!
+2021-07-15 15:03:31:     The replay link can be found here: http://tenhou.net/0/?log=2021071514gm-0001-0000-1610ff3b&tw=1
+2021-07-15 15:03:40:     --------------------------------------------------
+2021-07-15 15:03:40:  
+2021-07-15 15:03:40: Unexpected exception
+Traceback (most recent call last):
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\main.py", line 17, in connect_and_play
+    return client.start_game()
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 136, in start_game
+    self.both_log("    [Player {}] draws a tile...".format(who.index(True) + 1))
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 745, in both_log
+    self._stream_log(msg)
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 738, in _stream_log
+    (not self.logger_obj.buffer_mode) and self.logger_obj.add_line(msg, encoding = "utf-8")#made some change
+TypeError: add_line() got an unexpected keyword argument 'encoding'
+2021-07-15 15:03:40: End the game...
+2021-07-15 15:03:40:     Game was ended unexpected
+2021-07-15 15:03:40: 

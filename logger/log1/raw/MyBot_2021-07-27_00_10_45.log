@@ -1,0 +1,49 @@
+2021-07-27 00:10:46:     User(ID044813EF-4dCn98J3) was authenticated successfully
+2021-07-27 00:10:46:     🔍Search for a game...
+2021-07-27 00:10:46:     🔍Join request sent...
+2021-07-27 00:10:46:     Game type = "Red bonus tile" : True, "Open tanyao" : True, "Game  length" : tonpusen
+2021-07-27 00:10:46:     🔍0 seconds passed...
+2021-07-27 00:10:46:     A new game started!
+2021-07-27 00:10:46:     The replay link can be found here: http://tenhou.net/0/?log=None&tw=3
+2021-07-27 00:10:46:     Players are: [MyBot - 新人 - None, COM - 新人 - None, COM - 新人 - None, COM - 新人 - None]
+2021-07-27 00:10:47:     --------------------------------------------------
+2021-07-27 00:10:47:     Round number:0, Honba sticks:0, Bonus tile indicator:🀊
+2021-07-27 00:10:47:     Players: [MyBot - 新人 - 25000, COM - 新人 - 25000, COM - 新人 - 25000, COM - 新人 - 25000]
+2021-07-27 00:10:47:     Dealer: COM - 新人 - 25000
+2021-07-27 00:10:47:     Round  wind: 🀀
+2021-07-27 00:10:47:     Player wind: 🀃
+2021-07-27 00:10:47:  
+2021-07-27 00:10:47:     [Player 1] draws a tile...
+2021-07-27 00:10:47:     [Player 1] discards:  + 🀑
+2021-07-27 00:10:47:     [Player 2] draws a tile...
+2021-07-27 00:10:47:     [Player 2] discards:  + 🀔
+2021-07-27 00:10:47:     [Player 3] draws a tile...
+2021-07-27 00:10:47:     [Player 3] discards:  + 🀝
+2021-07-27 00:10:47: 
+2021-07-27 00:10:47:     [Bot] draws a tile: 🀉🀋🀎🀙🀙🀛🀛🀝🀟🀠🀐🀔🀁 + 🀆
+2021-07-27 00:10:48:     [Bot] discards:  + 🀆
+2021-07-27 00:10:48:     [Bot] hand tiles after discarding: 🀉🀋🀎🀙🀙🀛🀛🀝🀟🀠🀐🀔🀁
+2021-07-27 00:10:48: 
+2021-07-27 00:10:48:     Remaining tiles: 66
+2021-07-27 00:10:48:     --------------------------------------------------
+2021-07-27 00:10:48: 
+2021-07-27 00:10:48:     [Player 1] draws a tile...
+2021-07-27 00:10:48:     [Player 1] discards: 🀑 + 🀠
+2021-07-27 00:10:48:     [Player 2] draws a tile...
+2021-07-27 00:10:48:     [Player 2] discards: 🀔 + 🀆
+2021-07-27 00:10:48:     [Player 3] draws a tile...
+2021-07-27 00:10:48:     [Player 3] discards: 🀝 + 🀊
+2021-07-27 00:10:49: 
+2021-07-27 00:10:49:     [Bot] draws a tile: 🀉🀋🀎🀙🀙🀛🀛🀝🀟🀠🀐🀔🀁 + 🀃
+2021-07-27 00:10:50: Unexpected exception
+Traceback (most recent call last):
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\main.py", line 17, in connect_and_play
+    return client.start_game()
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 129, in start_game
+    if self._handle_draw_tile(msg):
+  File "c:\Users\chenq\Desktop\Mahjong\Mahjong AI\MahjongAI\client\tenhou_client.py", line 535, in _handle_draw_tile
+    self.game_table.bot.tiles136.remove(discard_tile_136)
+ValueError: list.remove(x): x not in list
+2021-07-27 00:10:50: End the game...
+2021-07-27 00:10:50:     Game was ended unexpected
+2021-07-27 00:10:50: 
